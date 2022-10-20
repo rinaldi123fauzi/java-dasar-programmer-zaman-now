@@ -9,3 +9,5 @@ ApplicationContext implementasi class terbagi dua : XML (versi spring 1,2,3) dan
 
 Untuk membuat ApplicationContext menggunakan Annotation pertama kita buat sebuah configuration class
 
+Singleton merupakan objek yang secara default akan mengembalikan object yang sama jika getBean berkali - kali
+
