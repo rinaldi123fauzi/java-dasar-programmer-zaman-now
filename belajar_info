@@ -1,0 +1,11 @@
+versi java = 17
+
+Inversion of Control (IoC) / Container IoC : prinsip pembuatan perangkat lunak, dimana kita melakukan pemindahan control untuk objek atau kode program ke sebuah container
+didalam framework. atau disebut juga container didalam framework yang bertugas untuk memanage data objek dan kode program.
+
+ApplicationContext : bisa disebut juga container spring, adalah interface representasi container IoC
+
+ApplicationContext implementasi class terbagi dua : XML (versi spring 1,2,3) dan Annotation
+
+
+
