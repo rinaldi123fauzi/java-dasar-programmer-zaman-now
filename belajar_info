@@ -7,5 +7,5 @@ ApplicationContext : bisa disebut juga container spring, adalah interface repres
 
 ApplicationContext implementasi class terbagi dua : XML (versi spring 1,2,3) dan Annotation
 
-
+Untuk membuat ApplicationContext menggunakan Annotation pertama kita buat sebuah configuration class
 
