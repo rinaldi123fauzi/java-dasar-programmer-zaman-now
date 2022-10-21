@@ -11,3 +11,12 @@ Untuk membuat ApplicationContext menggunakan Annotation pertama kita buat sebuah
 
 Singleton merupakan objek yang secara default akan mengembalikan object yang sama jika getBean berkali - kali
 
+
+Bean Scope :
+1. singleton : Hanya dibuat sekali dalam Spring IoC
+2. prototype : Selalu dibuat object baru setiap kali bean diakses
+3. request : Dibuat baru per HTTP Request (hanya untuk Web App)
+4. session : Dibuat baru per HTTP Session (hanya untuk Web App)
+5. application : Dibuat baru per ServletContext (hanya untuk Web App)
+6. websocket : Dibuat baru per WebSocket (hanya untuk WebSocket App)
+
